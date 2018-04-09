@@ -67,8 +67,9 @@ body {
   color: #000;
   padding: 20px 0; }
   .section-a .picture_me {
-    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.8);
-    border: 7px solid #fff; }
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.6);
+    border: 7px solid #fff;
+    margin-bottom: 2%; }
 
 .section-b {
   background: #ffffff;
@@ -90,26 +91,19 @@ body {
   -webkit-justify-content: center;
   width: 100%;
   margin: 0 auto; }
-
-.projects h1 {
-  margin-bottom: 2%; }
-
-.projects a {
-  margin: 1.5%; }
-
-.projects a:hover {
-  text-decoration: underline;
-  color: #fff; }
-
-.projects .item {
-  background-image: url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98b1cd2ea86a7b4796275ef13aadafbf&auto=format&fit=crop&w=1352&q=80");
-  background-size: cover;
-  background-position: center center;
-  min-height: 400px;
-  min-width: 400px;
-  margin: 1.5%;
-  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.8);
-  border: 3px solid #F4F4F4; }
+  .projects h1 {
+    margin-bottom: 2%; }
+  .projects a {
+    margin: 1.5%; }
+  .projects .item {
+    background-image: url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98b1cd2ea86a7b4796275ef13aadafbf&auto=format&fit=crop&w=1352&q=80");
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+    min-width: 400px;
+    margin: 1.5%;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.8);
+    border: 3px solid #F4F4F4; }
 
 .item-info {
   background: rgba(0, 0, 0, 0.6);
@@ -134,7 +128,24 @@ body {
     font-style: italic;
     font-size: 0.9em;
     padding-top: 5px; }
+  .item-info #project_link {
+    color: #fff; }
 
+@media only screen and (max-width: 600px) {
+  .header-content h1 {
+    font-size: 40px; }
+  .header-content p {
+    margin-top: 0.5%;
+    font-size: 18px; }
+  .projects .item {
+    margin: 1% 0 1% 0;
+    min-height: 280px;
+    min-width: 280px; }
+  .projects .item-info {
+    min-height: 280px;
+    min-width: 280px; } }
+
+/* End of Mobile Media Query*/
 @media (max-width: 960px) {
   .container {
     padding-right: 3rem;
