@@ -193,9 +193,7 @@ body {
     font-size: 1.5rem;
     margin-top: 7%; }
   .github-image p {
-    font-size: 0.7rem; }
-  .container-nav ul {
-    padding-left: -1px; } }
+    font-size: 0.7rem; } }
 
 /* End of Mobile Media Query*/
 @media (max-width: 960px) {
