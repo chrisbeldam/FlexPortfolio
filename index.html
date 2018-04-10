@@ -8,18 +8,18 @@
       <link rel="stylesheet" href="cssnano/styles.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script src="js/scrolling-nav.js"></script>
       <script src="js/main.js"></script>
+</script>
 </head>
 
 <body>
   <header class="v-header container">
     <div class="fullscreen-video-wrap">
-      <video src="code.mov" autoplay="true" loop="true"></video>
+      <video src="code.mov" autoplay="true" loop="true" class="cover_video"></video>
     </div>
     <div class="header-overlay">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="margin-bottom:3%; background-color:transparent!important;">
@@ -32,7 +32,8 @@
                 <li><a class="page-scroll" href="#page-top"></a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#about">About Me</a></li>
                 <li class="nav-item"><a class="nav-link page-scroll" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link page-scroll" href="#contact">Contact Me</a></li>
+                <li class="nav-item"><a class="nav-link page-scroll" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link page-scroll" href="https://github.com/chrisbeldam">GitHub</a></li>
               </ul>
             </div>
           </nav>
@@ -102,7 +103,7 @@
             <div class="item-info">
               <!-- <h2><a href="https://ninlaro.com" target="_blank">Ninlaro</a></h2> -->
               <h2>Ninlaro</h2>
-              <span>Company Product Website - Front End Team</span>
+              <span>Product Website - Front End Team</span>
               <span>Apprentice Developer</span>
               <br>
               <div class="btn btn-primary btn-sm" style="background-color:transparent; border: 2px solid #fff">
@@ -145,23 +146,47 @@
               </div>
             </div>
         </div>
-
       </div> <!-- End of project div -->
-
-      <div class="container">
-        <p></p>
+      <h2 class="github-title">My GitHub Activity</h2>
+      <div class="github-image" style="margin:auto;">
+        <img src="http://ghchart.rshah.org/chrisbeldam" alt="chrisbeldam's Github chart" class="gh-chart"/>
+        <p class="github-text">(Credit to https://github.com/2016rshah/githubchart-api)</p>
       </div>
-  </section>
+    </section>
+
 
   <section class="section-a" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <h1>Contact Me</h1>
+          <h1>Contact</h1>
+          <p>You can get in contact with me via email (chrisgbeldam@gmail.com). 
+            <div class="btn btn-secondary btn-lg" style="border-color:#fff">
+              <a href="mailto:chrisgbeldam@gmail.com" style="color:#fff;">Click Here</a>
+            </div>
+          </p>
         </div>
       </div>
     </div>
   </section>
+
+  <footer class="footer">
+      <nav class="navbar_bottom">
+          <div class="container center">
+              <ul class="nav">
+                  <li><a class="page-scroll" href="#page-top"></a></li>
+                  <li class="navbar-text"><a href="#about">About</a></li>
+                  <li class="navbar-text"><a href="#projects">Projects</a></li>
+                  <li class="navbar-text"><a href="#contact">Contact</a></li>
+                  <li class="navbar-text"><a href="https://github.com/chrisbeldam" target="_blank">GitHub</a></li>
+              </ul>
+          </div>
+      
+          <div class="container center">
+              <p>Chris Beldam &copy; 2018. All Rights Reserved.</p>
+          </div>
+      </nav>
+  </footer>
   
       <!-- jQuery -->
     <script src="MinJS/jquery.js"></script>
