@@ -188,7 +188,14 @@ body {
     min-height: 280px;
     min-width: 280px; }
     .projects .item-info h2 {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem; }
+  .github-title {
+    font-size: 1.5rem;
+    margin-top: 7%; }
+  .github-image p {
+    font-size: 0.7rem; }
+  .container-nav ul {
+    padding-left: -1px; } }
 
 /* End of Mobile Media Query*/
 @media (max-width: 960px) {
