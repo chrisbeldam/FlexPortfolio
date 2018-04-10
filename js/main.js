@@ -2,13 +2,13 @@ $(document).ready(function() {
   
     $('.item-info').hide()
   
-    $('.item').mouseenter(function() {
-      $(this).find('.item-info').fadeIn(100);
+    $('.item1').mouseenter(function() {
+      $(this).find('.item-info1').fadeIn(100);
       $(this).css("cursor", "pointer");
     });
   
-    $('.item').mouseleave(function() {
-      $(this).find('.item-info').fadeOut(100)
+    $('.item1').mouseleave(function() {
+      $(this).find('.item-info1').fadeOut(100)
     });
   
   });

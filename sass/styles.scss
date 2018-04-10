@@ -162,7 +162,7 @@ $blacktext: black;
   }   /* End of Item Info */
 
   .github-title {
-    margin-top:2%;
+    margin-top:2%!important;
   }
   .gh-chart{
     width:60%;
@@ -222,12 +222,12 @@ $blacktext: black;
     .projects{
       .item{
         margin:1% 0 1% 0;
-        min-height:280px;
-        min-width:280px;
+        min-height:250px;
+        min-width:250px;
       }
       .item-info{
-        min-height:280px;
-        min-width:280px;
+        min-height:250px;
+        min-width:250px;
         h2{
           font-size:1.5rem;
         }
@@ -236,7 +236,7 @@ $blacktext: black;
 
     .github-title {
       font-size:1.5rem;
-      margin-top:7%;
+      margin-top:7%!important;
     }
 
     .github-image {
