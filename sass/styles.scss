@@ -81,7 +81,7 @@ $blacktext: black;
   } /* End of button */
 
   .section-a {
-    background: $whitebg;
+    background: linear-gradient(20deg, #fff,#f4f4f4);
     color:#000;
     padding:20px 0;
     .picture_me{
@@ -92,7 +92,7 @@ $blacktext: black;
   }   /* End of Section A */
 
   .section-b{
-    background: $greybg;
+    background: $whitebg;
     color:#000;
     padding:20px 0;
     h2 {
